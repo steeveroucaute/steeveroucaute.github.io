@@ -1,4 +1,7 @@
+h1 {
+	color: #AD6700;
+}
 body {
-	background-color: #FFEFD5;
-	color: #E9967A;
+	background-color:rgba(0,150,255,0.05);
+	color: #006DB2;
 }
