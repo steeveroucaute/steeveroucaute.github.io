@@ -15,7 +15,6 @@ ul {
       list-style-type: none;
 }
 address {
-	text-align: center;
 	font-style: normal;
 }
 #lwLogo {
@@ -24,24 +23,25 @@ address {
 
 .hero {
 	background-image: url("../images/lwharf_sideView.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:90vh;
 	text-align: center;
 }
 
 #slogan {
 	font-style: italic;
 	font-size: 3em;
+	padding-top:5em;
 }
 
 .descriptiveText {
-	text-align: center;
 }
 
 #featuresList {
-	text-align: center;
 }
 
 #contactFooter {
-	text-align: right;
 }
 
 .rightMargin {
