@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700|Raleway:400,600,800);
+@import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700,700italic|Vollkorn:400italic,400);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	text-align: left;
+	font-family: "Vollkorn", serif;
+	/*font-family: 'Lora', serif;*/	
+	font-weight: 400;
+	font-size: 16px;
+	background-color: #FFFFFF;
+	color: rgb(14, 64, 178);
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 2em;
+	font-family: 'Raleway', sans-serif;
+}
+ul {
+      list-style-type: none;
+}
+address {
+	font-style: normal;
+}
+
+.headerBox {
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	background-color: rgba(29, 74, 178, 1);
+	color: #FFFFFF;
+}
+
+#lwLogo {
+	width: 10em;
+}
+#twitterHandle {
+
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+	padding: 1.5em;
+}
+
+.hero {
+	background-image: url("../images/lwharf_sideViewColour.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:90vh;
+	text-align: center;
+}
+
+#slogan {
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	color: white;
+	font-size: 3em;
+	padding-top:5em;
+	font-weight: 600;
+}
+
+.descriptiveText {
+	font-size: 1.1em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	padding-left: 20em;
+	padding-right:20em;
+
+}
+
+#featuresList {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	padding-left: 10em;
+}
+
+.rightMargin {
+	padding-right: 1.5em;
+}
+
+.linkBoxesSingle {
+	padding: 2em;
+	color: #FFFFFF;
+	font-size: 0.8em;
+ 	text-align: center;
+ }
+
+ .linkBoxes {
+ 	padding: 1em;
+	background-color: rgba(29, 74, 178, 1);
+	}
+
+.linkBoxesText {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+
+}
+
+#contactFooter {
+	padding: 2em;
+}
+
+.addressFooter {
+	text-align: center;
+}
+
+#addressText {
+	padding: 2em;
+}
+

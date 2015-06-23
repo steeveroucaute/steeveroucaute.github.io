@@ -23,7 +23,7 @@ address {
 }
 
 .hero {
-	background-image: url("../images/lwharf_sideView.jpg");
+	background-image: url("../images/lwharf_sideViewBW.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	height:90vh;
@@ -32,6 +32,7 @@ address {
 
 #slogan {
 	font-style: italic;
+	color: white;
 	font-size: 3em;
 	padding-top:5em;
 }
@@ -47,4 +48,8 @@ address {
 
 .rightMargin {
 	padding-right: 1.5em;
+}
+
+#box1 {
+	background-color: black;
 }
