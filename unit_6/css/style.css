@@ -1,0 +1,253 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Lora:400,700);
+
+header {
+	background-color: #07AEA5;
+	padding: 1em;
+	height: 6em;
+	color: #ffffff;
+}
+
+
+#researchLogo {
+	width: 20em;
+	margin-left: 2em;
+	float: left;
+}
+
+#logoText {
+	float: right;
+	padding-top: 0.7em;
+}
+
+.signupButtons {
+	width: 4em;
+	float: right;
+	margin: 1em 1.3em;
+	background-color: #8DC1F0;
+	padding: 1em 2em;
+	border-radius: 1em;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	font-family: Lato, sans-serif;
+}
+
+
+body {
+	font-size: 16px;
+	font-family: Lora, serif;
+}
+
+aside {
+	background-color: #8DC121;
+	width: 400px;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Lato", sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.3em;
+	line-height: 1.5em;
+	margin-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+a {
+	text-decoration: none;
+}
+footer {
+	clear: both;
+	background-color: #07AEA5;
+	padding: 3em;
+	height: 0em;
+	color: #ffffff;
+	text-align: center;
+
+}
+
+
+section h2 {
+	color: #028A7F;
+}
+
+aside div p {
+	padding: 2em;
+}
+
+.hero {
+	background-image: url("../images/Hero_laptop.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:80vh;
+	text-align: center;
+}
+
+.profileImage {
+	height: 100px;
+	width: 100px;
+	border-radius: 20em;
+	margin: 2em;
+
+}
+
+.friendsProfileImage {
+	height: 50px;
+	width: 50px;
+	border-radius: 2em;
+	margin: 0.5em 1em;
+	float: left;
+	font-family: Lora, serif;
+	font-weight: 700;
+
+}
+
+.profile {
+	width: 300px;
+	text-align: center;
+	padding: 1em 3em;
+	color: #fff;
+	text-decoration: none;
+}
+
+.friendsBlock {
+	height: 4em;
+	display: block;
+	clear: both;
+}
+
+#scoreBoard {
+	padding: 0.5em 2.5em;
+	text-align: center;
+	background-color: #059DBE;
+	line-height: 1.5em;
+	color: #fff;
+	font-family: Lato, sans-serif;
+	font-size: 1.4em;
+	display: inline-block;
+}
+
+.resourceButtons {
+	padding: 1em 2em;
+	text-align: center;
+	background-color: #028A7F;
+	margin: auto;
+	display: block;
+	color: #fff;
+	font-family: Lato, sans-serif;
+	margin-bottom: 1em;
+	margin-top: 0em;
+	border-radius: 0.5em;
+}
+
+.resourceSmallButtons {
+	float: left;
+	font-size: 0.8em;
+	padding: 0.5em;
+	background-color: #8DC1F0;
+	color: #059DBE;
+	border-radius: 0.3em;
+	margin: 0.2em;
+	width: 5em;
+	text-align: center;
+}
+.resourcesBlock {
+	display: inline-block;
+
+}
+
+#slogan {
+	padding-top: 12em;
+	color: #ffffff;
+	font-size: 2.5em;
+}
+.rightWrapper {
+	float: left;
+	clear: both;
+
+}
+.dashFunctionButtons {
+	padding: 0.5em 2em;
+	background-color: #07AEA5;
+	margin: 1em 1.2em;
+	font-size: 0.7em;
+	color: #fff;
+	font-family: Lato, sans-serif;
+	border-radius: 0.5em;
+	line-height: 4em;
+}
+
+#wrap {
+	width: 1000px;
+	margin: auto;
+
+}
+
+#ulWrapper {
+	width: 50em;
+	line-height: 3em;
+	margin: 3em 0;
+}
+.callTextWrapper {
+	padding: 4em;
+	font-size: 1.2em;
+	float: left;
+	line-height: 1.4em;
+	background-color: #059DBE;
+	display: inline;
+
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.subscriptionWrapper {
+	width: 1200px;
+	margin: auto;
+	clear: both;
+}
+
+.subscriptionBlock {
+	width: 320px;
+	height: 320px;
+	float: left;
+	text-align: center;
+	padding: 2em;
+	color: black;
+	border-radius: 2em;
+	margin: 4em 0;
+}
+
+section a p {
+	line-height: 1.5em;
+	font-size: 0.9em;
+}
+
+.subscriptionImages {
+	height: 200px;
+	width: 200px;
+	border-radius: 20em;
+}
+
+.subscriptionBlock:hover {
+	background-color: rgba(141,193,33,0.6);
+	height: 320px;
+}
+
+footer a {
+	padding: 0.5em 4em;
+	margin: 0 1em;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Lato, sans-serif;
+}
+
+.linkFooter {
+	margin-top: 2em;
+}
