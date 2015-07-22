@@ -16,6 +16,66 @@ h1 {
 	font-size: 2em;
 	font-family: 'Raleway', sans-serif;
 }
+
+header {
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	background-color: rgba(29, 74, 178, 1);
+	color: #FFFFFF;
+	height: 100px;
+}
+
+header div {
+	padding: 2em;
+	width: inherit;
+}
+
+header div h1 {
+	float: left;
+	margin:  0 0;
+}
+
+header div a {
+	float: right;
+	width: auto;
+}
+
+header div img {
+	float:right;
+}
+article {
+	font-size: 1.1em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	padding-left: 20em;
+	padding-right:20em;
+
+}
+
+nav {
+ 	padding: 1em;
+	background-color: rgba(29, 74, 178, 1);
+	width: 100%;	/*ask John, trying to create a wrapper here to center all nav icons but margin: auto does not center;*/
+}
+
+nav div {
+	float: left;
+	margin: auto 3em; /*ask John why not centering vertically*/
+	height: 10em;
+	text-align: center;
+
+
+}
+
+nav div a h3 {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	text-decoration: none; /*ask John why underline is not removing*/
+	color: #FFFFFF;
+	font-size: 1em;
+	font-style: normal;
+}
+
 ul {
       list-style-type: none;
 }
@@ -23,15 +83,26 @@ address {
 	font-style: normal;
 }
 
-.headerBox {
-	padding-right: 1.5em;
-	padding-left: 1.5em;
-	background-color: rgba(29, 74, 178, 1);
+section h3 {
+	display: inline;
+}
+
+section div {
+	float: left;
+	padding: 2em;
 	color: #FFFFFF;
+	font-size: 0.8em;
+ 	text-align: center;
+}
+
+aside ul {
+	clear: both;
 }
 
 #lwLogo {
 	width: 10em;
+	float: left;
+	margin: 0 1em;
 }
 #twitterHandle {
 
@@ -39,6 +110,14 @@ address {
 	font-family: 'Raleway', sans-serif;
 	color: #FFFFFF;
 	padding: 1.5em;
+	float: right;
+}
+
+#twitterHandle a img {
+	width: 10%;
+	height: 10%;
+	background-color: yellow;
+
 }
 
 .hero {
@@ -58,14 +137,6 @@ address {
 	font-weight: 600;
 }
 
-.descriptiveText {
-	font-size: 1.1em;
-	padding-top: 4em;
-	padding-bottom: 4em;
-	padding-left: 20em;
-	padding-right:20em;
-
-}
 
 #featuresList {
 	padding-top: 3em;
@@ -77,23 +148,16 @@ address {
 	padding-right: 1.5em;
 }
 
-.linkBoxesSingle {
-	padding: 2em;
-	color: #FFFFFF;
-	font-size: 0.8em;
- 	text-align: center;
- }
 
- .linkBoxes {
- 	padding: 1em;
-	background-color: rgba(29, 74, 178, 1);
-	}
 
-.linkBoxesText {
-	font-family: 'Lora', serif;
-	font-weight: 400;
-
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
+
 
 #contactFooter {
 	padding: 2em;

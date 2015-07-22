@@ -1,0 +1,257 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700|Raleway:400,600,800);
+@import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700,700italic|Vollkorn:400italic,400);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	text-align: left;
+	font-family: "Vollkorn", serif;
+	/*font-family: 'Lora', serif;*/	
+	font-weight: 400;
+	font-size: 16px;
+	background-color: #FFFFFF;
+	color: #0B81D5;
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 2em;
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+	background-color: rgba(0, 161, 190, 1);
+	color: #FFFFFF;
+	height: 100px;
+}
+
+header div {
+	padding: 1em;
+}
+
+header div h1 {
+	float: left;
+	font-size: 2em;
+}
+
+header div a {
+	float: right;
+	margin: -4em 2em;
+}
+
+header div img {
+	float:right;
+	max-width: 80%;
+	max-height: 80%;
+}
+article {
+	font-size: 1.1em;
+	padding: 4em;
+	max-width: 80%;
+	margin: auto;
+
+}
+
+nav {
+ 	padding: 1em;
+	background-color: rgba(0, 161, 190, 1);
+	width: 100%;	/*ask John, trying to create a wrapper here to center all nav icons but margin: auto does not center;*/
+	height: 200px;
+	margin: auto;
+}
+
+nav div {
+	float: left;
+	margin: 3em 3em; /*ask John why not centering vertically*/
+	height: 10em;
+	text-align: center;
+
+
+}
+
+nav div a {
+	text-decoration: none;
+}
+
+nav div a h3 {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	text-decoration: none; /*ask John why underline is not removing*/
+	color: #FFFFFF;
+	font-size: 1em;
+	font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #0B81D5;
+	min-height: 200px;
+	color: white;
+    max-width: 35%;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    font-family: Lora;
+    padding: 2em;
+    float: left;
+    margin: 5%;
+    border-radius: 2em;
+}
+address {
+	font-style: normal;
+}
+
+section h3 {
+	display: inline;
+}
+
+section div {
+	float: left;
+	padding: 2em;
+	color: #FFFFFF;
+	font-size: 0.8em;
+ 	text-align: center;
+}
+
+
+footer {
+	clear: both;
+	background-color: #00A1BE;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+footer nav {
+	background-color: #0A48CB;
+	width: 20%;
+	margin: 2em auto;
+	padding: 1em;
+	border-radius: 1em;
+
+}
+
+footer a {
+	text-decoration: none;
+	display: block;
+	margin: 2em 0;
+	padding: 1em;
+	background-color: #0ACB7E;
+	width: 25%;
+	border-radius: 1em;
+	margin: 1em auto;
+	color: #FFFFFF;
+}
+
+footer address {
+	padding: 2em 0;
+}
+
+#lwLogo {
+	max-width: 200px;
+	float: left;
+	margin: 1em 0.3em;
+}
+#twitterHandle {
+
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+/*	padding: 1.5em;
+*/	text-decoration: none;
+	width: 10%;
+	display: inline;
+	margin: 1em 0;
+}
+
+#handleText {
+	margin: 2em;
+	padding-top: 3em;
+}
+
+.hero {
+	background-image: url("../images/lwharf_sideViewColour.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:90vh;
+	text-align: center;
+}
+
+#slogan {
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: 3em;
+	padding-top:10em;
+	font-weight: 600;
+}
+
+.navWrapper {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.listWrapper {
+	width: 90%;
+	margin: auto;
+}
+
+.rightMargin {
+	padding-right: 1.5em;
+}
+
+
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+
+#contactFooter {
+	padding: 2em;
+}
+
+.addressFooter {
+	text-align: center;
+}
+
+#addressText {
+	padding: 2em;
+}
+
+@media screen and (min-width:768px) and (max-width: 1083px) {
+	nav {
+		height: 400px;
+	}
+	nav div {
+		
+	}
+}
+
+
+@media screen and (max-width:768px) {
+
+	#slogan {
+		font-size: 2em;
+		padding-top: 16em;
+	} 
+	article {
+		max-width: 80%;
+		padding: 4em 1em;
+		font-size: 0.9em;
+	}
+	nav div {
+		margin: 1em;
+	}
+	nav div a {
+		font-size: 0.8em;
+	}
+	section ul {
+		display: block;
+		clear: both;
+		font-size: 0.7em;
+		max-width: 100%;
+		margin: 2%;
+	}
+}
