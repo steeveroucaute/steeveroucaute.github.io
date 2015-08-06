@@ -1,0 +1,338 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700|Raleway:400,600,800);
+@import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700,700italic|Vollkorn:400italic,400);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	text-align: left;
+	font-family: "Vollkorn", serif;
+	font-weight: 400;
+	font-size: 16px;
+	background-color: #FFFFFF;
+	color: #444444;
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 2em;
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+	background-color: rgba(255, 255, 255, 1);
+	color: #333333;
+	height: 6.25em;
+}
+
+
+header div {
+	margin-top: 2em;
+	margin-left: 2em;
+	float: left;
+	width: 40%;
+}
+
+#lwLogo {
+	width: 25%;
+	float: left;
+	margin: 1em 0.3em;
+}
+
+header a {
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #333333;
+	float: right;
+	margin-top: 2em;
+	margin-right: 2em;
+	margin-left: 0em;
+}
+
+
+header a img {
+	width: 50%;
+}
+
+header p {
+	font-weight: 500;
+	font-size: 2em;
+	font-family: 'Raleway', sans-serif;
+	float: left;
+}
+
+
+header div img {
+	float:right;
+	width: 20%;
+	height: 20%;
+}
+
+#slogan {
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: 3em;
+	font-weight: 600;
+	position: absolute;
+	top: 92%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+article {
+	font-size: 1em;
+	padding: 4em;
+	max-width: 80%;
+	margin: auto;
+
+}
+
+nav {
+/*	background-color: rgba(0, 161, 190, 1);
+*/	margin: 2.5em auto;
+}
+
+nav div div {
+	float: left;
+	text-align: center;
+	width: 29.333%;
+	margin: 1% 1%;
+	padding: 0;
+	background-color: black;
+	height: 10em;
+	position: relative;
+/*	border-radius: 0.25em;
+*/	height: 14em;
+
+}
+
+nav div {
+	width: 70%;
+	margin: auto;
+}
+
+nav div a {
+	text-decoration: none;
+	margin: auto 0;
+	vertical-align: middle;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+}
+
+nav div:hover {
+	background-color: #4E6DAB;
+}
+
+nav div a h3 {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	text-decoration: none; /*ask John why underline is not removing*/
+	color: #FFFFFF;
+	font-size: 1em;
+	font-style: normal;
+}
+
+
+.ulWrapper {
+	margin: auto 0;
+}
+
+section img {
+	width:20%;
+	float: left;
+	min-height: 5.2%;
+}
+
+section p {
+	width: 19%;
+	padding: 5.2% 2%;
+	float: left;
+	background-color: black;
+	font-size: 1.25em;
+	font-family: 'Raleway', sans-serif; 
+	max-height: 195px;
+	min-height: 195px;
+}
+
+section p:hover {
+	background-color: red;
+}
+
+ul {
+	list-style-type: none;
+	color: white;
+	text-align: left;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    font-family: Lora;
+    padding: 2em;
+    width: 100%;
+
+}
+
+address {
+	font-style: normal;
+}
+
+section h3 {
+	display: inline;
+}
+
+section div {
+	padding: 2em;
+	color: #FFFFFF;
+	font-size: 0.8em;
+ 	text-align: center;
+ 	margin: auto;
+}
+
+
+footer {
+	clear: both;
+	background-color: #FFFFFF;
+	color: black;
+	text-align: center;
+}
+
+footer nav {
+	background-color: #0A48CB;
+	width: 20%;
+	margin: 2em auto;
+	padding: 1em;
+	border-radius: 1em;
+
+}
+
+footer a {
+	text-decoration: none;
+	display: block;
+	margin: 2em 0;
+	padding: 1em;
+	background-color: #666666;
+	width: 20%;
+	border-radius: 1em;
+	margin: 1em auto;
+	color: #ffffff;
+}
+
+footer a:hover {
+	background-color: #4E6DAB;
+}
+
+footer address {
+	padding: 2em 0;
+}
+
+
+#twitterHandle {
+
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+	width: 10%;
+	float: right;
+	padding-top: 3em;
+	margin-right: 2em;
+	margin-left: 0em;
+}
+
+
+
+.hero {
+	background-image: url("../images/lwAcrossRiver.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:90vh;
+	text-align: center;
+	position: relative;
+}
+
+
+.navWrapper {
+	margin: auto;
+}
+
+.listWrapper {
+	background-color: #666666;
+}
+
+.rightMargin {
+	padding-right: 1.5em;
+}
+
+
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+
+#contactFooter {
+	padding: 2em;
+}
+
+.addressFooter {
+	text-align: center;
+}
+
+#addressText {
+	padding: 2em;
+}
+
+
+@media screen and (max-width: 1300px) {
+	#handleText {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 870px) {
+    #slogan {
+        font-size: 2.25em;
+    }
+
+    footer a {
+    	font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+	#lwLogo {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 550px) {
+	nav div div {
+		width: 100%;
+		float: none;
+	}
+	nav div div a {
+		float: right;
+		font-size: 0.5em;
+		display: inline;
+		padding: 0;
+	}
+
+	#twitterImg {
+		max-width: 60%;
+	}
+
+	#twitterHandle {
+		padding-top: 2.5em;
+	}
+
+	header div img {
+		width: 100%;
+		height: 100%;
+	}
+}

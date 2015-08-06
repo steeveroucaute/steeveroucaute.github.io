@@ -1,0 +1,42 @@
+@media screen and (min-width:768px) and (max-width: 1083px) {
+	nav {
+		height: 400px;
+	}
+	nav div {
+		
+	}
+}
+
+
+@media screen and (max-width:768px) {
+
+	#slogan {
+		font-size: 2em;
+		padding-top: 16em;
+	} 
+	article {
+		max-width: 80%;
+		padding: 4em 1em;
+		font-size: 0.9em;
+	}
+	nav div {
+		margin: 1em;
+	}
+	nav div a {
+		font-size: 0.8em;
+	}
+	section ul {
+		display: block;
+		clear: both;
+		font-size: 0.7em;
+		max-width: 100%;
+		margin: 2%;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	h1 {
+		font-size: 1em;
+		color: red;
+	}
+}
